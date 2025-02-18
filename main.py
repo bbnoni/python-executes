@@ -1,10 +1,10 @@
 
 
-# name = input("Enter your name: ")
-#
-# age = input("Enter your age: ")
-#
-# print(f"Hello, {name}!, You are {age} years old.")
+name = input("Enter your name: ")
+
+age = input("Enter your age: ")
+
+print(f"Hello, {name}!, You are {age} years old.")
 
 # x = 10
 # y = 5.5
@@ -34,12 +34,12 @@
 # else:
 #     print("You are an adult")
 
-number = int(input("Enter a number: "))
-
-if number%2 == 0:
-    print("Even")
-else:
-    print("Odd")
+#number = int(input("Enter a number: "))
+#
+# if number%2 == 0:
+#     print("Even")
+# else:
+#     print("Odd")
 
 # password = input("Enter password: ")
 #
