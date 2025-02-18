@@ -27,12 +27,12 @@
 # print(num1 + num2)
 
 
-age = int(input("Enter your age: "))
-
-if age < 18:
-    print("You are a minor")
-else:
-    print("You are an adult")
+# age = int(input("Enter your age: "))
+#
+# if age < 18:
+#     print("You are a minor")
+# else:
+#     print("You are an adult")
 
 #number = int(input("Enter a number: "))
 #
@@ -48,17 +48,17 @@ else:
 # else:
 #     print("Access Denied!")
 
-# score = float(input("Enter your score: "))
-#
-# if score > 90 and score <= 100:
-#     print(f"Your score is {score}. \ A")
-# elif score >= 80 and score <= 89:
-#     print("B")
-# elif score >= 70 and score <= 79:
-#     print("C")
-# elif score >= 60 and score <= 69:
-#     print("D")
-# elif score < 60:
-#     print("F")
-# else:
-#     print("Enter score 100 and below")
+score = float(input("Enter your score: "))
+
+if score > 90 and score <= 100:
+    print(f"Your score is {score}. \ A")
+elif score >= 80 and score <= 89:
+    print("B")
+elif score >= 70 and score <= 79:
+    print("C")
+elif score >= 60 and score <= 69:
+    print("D")
+elif score < 60:
+    print("F")
+else:
+    print("Enter score 100 and below")
