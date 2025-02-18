@@ -1,10 +1,10 @@
 #
 #
-name = input("Enter your name: ")
-
-age = input("Enter your age: ")
-
-print(f"Hello, {name}!, You are {age} years old.")
+# name = input("Enter your name: ")
+#
+# age = input("Enter your age: ")
+#
+# print(f"Hello, {name}!, You are {age} years old.")
 
 # x = 10
 # y = 5.5
@@ -18,9 +18,9 @@ print(f"Hello, {name}!, You are {age} years old.")
 # print(float(3.14))
 # print(int(5.67))
 
-# a = "5"
-# b = 3
-# print(a * b)
+a = "5"
+b = 3
+print(a * b)
 
 # num1 = int(input("Enter a number: "))
 # num2 = int(input("Enter another number: "))
