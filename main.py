@@ -18,21 +18,21 @@
 # print(float(3.14))
 # print(int(5.67))
 
-a = "5"
-b = 3
-print(a * b)
+# a = "5"
+# b = 3
+# print(a * b)
 
 # num1 = int(input("Enter a number: "))
 # num2 = int(input("Enter another number: "))
 # print(num1 + num2)
 
 
-# age = int(input("Enter your age: "))
-#
-# if age < 18:
-#     print("You are a minor")
-# else:
-#     print("You are an adult")
+age = int(input("Enter your age: "))
+
+if age < 18:
+    print("You are a minor")
+else:
+    print("You are an adult")
 
 #number = int(input("Enter a number: "))
 #
