@@ -1,18 +1,18 @@
-
-
-name = input("Enter your name: ")
-
-age = input("Enter your age: ")
-
-print(f"Hello, {name}!, You are {age} years old.")
-
-# x = 10
-# y = 5.5
-# z = "Python"
 #
-# print(type(x))
-# print(type(y))
-# print(type(z))
+#
+# name = input("Enter your name: ")
+#
+# age = input("Enter your age: ")
+#
+# print(f"Hello, {name}!, You are {age} years old.")
+
+x = 10
+y = 5.5
+z = "Python"
+
+print(type(x))
+print(type(y))
+print(type(z))
 
 # print(float(100))
 # print(float(3.14))
