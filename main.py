@@ -75,8 +75,27 @@
 #     print(num)
 #     num = num + 2
 
-num = 1
+# num = 1
+#
+# while num <= 20:
+#     print(num)
+#     num += 2
 
-while num <= 20:
-    print(num)
-    num += 2
+
+#sum of numbers from 1 to N
+#
+# n = int(input("Enter a number: "))
+# total = 0
+# for i in range(1, n+1)
+#     print(i)
+
+
+text = input("Enter a string: ")
+
+reversed_text = ""
+for char in text:
+    reversed_text = char + reversed_text
+
+print("Reversed:", reversed_text)
+
+
