@@ -69,9 +69,14 @@
 # for i in range(1, 11):
 #     print(i)
 
-num = 2
+# num = 2
+#
+# while num <= 20:
+#     print(num)
+#     num = num + 2
+
+num = 1
 
 while num <= 20:
     print(num)
-    num = num + 2
-
+    num += 2
