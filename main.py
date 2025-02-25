@@ -99,13 +99,37 @@
 # print("Reversed:", reversed_text)
 
 
-def sum_numbers(n):
-    total = 0
-    for i in range(1, n+1):
-        total += i
-    return total
-print(sum_numbers(5))
+# def sum_numbers(n):
+#     total = 0
+#     for i in range(1, n+1):
+#         total += i
+#     return total
+# print(sum_numbers(5))
 
+
+import random
+
+def guessing_game():
+
+    secret_number = random.randint(1, 100)
+    attempts = 0
+
+    print("Welcome to the Number guessing game")
+    print("I have chosen a number between 1 and 100. Try to guess it!")
+
+    while True:
+        try:
+            guess = int(input("Enter your guess: "))
+            attempts += 1
+
+            if guess < 1 or guess > 100:
+                print("Your guess must be between 1 and 100!")
+
+        except ValueError:
+            print("Invalid Input")
+
+if __name__ == "__main__":
+    guessing_game()
 
 
 
