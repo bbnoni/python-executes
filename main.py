@@ -90,12 +90,23 @@
 #     print(i)
 
 
-text = input("Enter a string: ")
+# text = input("Enter a string: ")
+#
+# reversed_text = ""
+# for char in text:
+#     reversed_text = char + reversed_text
+#
+# print("Reversed:", reversed_text)
 
-reversed_text = ""
-for char in text:
-    reversed_text = char + reversed_text
 
-print("Reversed:", reversed_text)
+def sum_numbers(n):
+    total = 0
+    for i in range(1, n+1):
+        total += i
+    return total
+print(sum_numbers(5))
+
+
+
 
 
